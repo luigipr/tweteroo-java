@@ -19,6 +19,7 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
+
     public List<UserModel> findAll() {
         return userRepository.findAll();
     }

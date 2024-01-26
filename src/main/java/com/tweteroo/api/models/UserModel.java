@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor        // Construtor sem argumentos
 @AllArgsConstructor       // Construtor com todos os argumentos
 @Entity                   // Representa que é uma entidade a ser mapeada no BD
-@Table(name = "recipes")  // Nome da tabela que representa esses dados
+@Table(name = "users")  // Nome da tabela que representa esses dados
 public class UserModel {
     
         public UserModel(UserDTO dto) {
