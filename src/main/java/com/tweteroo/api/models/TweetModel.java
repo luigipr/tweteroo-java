@@ -21,8 +21,9 @@ import lombok.NoArgsConstructor;
 @Table(name = "tweets")  // Nome da tabela que representa esses dados
 public class TweetModel {
     
-    public TweetModel(TweetDTO dto) {
+    public TweetModel(TweetDTO dto, UserModel user) {
         this.text = dto.getText();
+        this.user = user;
     }
 
     @Id
